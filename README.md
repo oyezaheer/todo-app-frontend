@@ -31,6 +31,6 @@ Make sure you have Node.js and npm installed on your machine. You can download t
    ```
 
 ### Start the development server
-    ```
+    
     npm run dev
-    ```
+    
