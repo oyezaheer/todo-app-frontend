@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5005';
+const API_URL = process.env.REACT_APP_API_URL || 'https://todo-app-backend-iohf.onrender.com';
 
 export const getTasks = async () => {
   const response = await axios.get(`${API_URL}/tasks`);
